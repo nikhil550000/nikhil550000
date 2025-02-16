@@ -1,45 +1,46 @@
-# Hi there, I'm Nikhil! 👋
+# Hi there, I'm Nikhil! 👋  
 
-## About Me
+## About Me  
 
-I'm a passionate software developer with a keen interest in AI-driven solutions and cutting-edge technologies. My journey in the tech world has been driven by curiosity and a desire to build innovative solutions that can make a difference. 
+I'm a passionate **undergraduate** with a keen interest in AI-driven solutions and cutting-edge technologies. My journey in the tech world is fueled by curiosity and a desire to build innovative solutions that make a difference.  
 
-- 🌱 I’m currently learning more about machine learning and AI.
-- 💬 Ask me about Machine Learning and Deep Learning.
-- 📫 How to reach me: [nikhil550000@example.com](mailto:nikhil550000@example.com)
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I love reading articles about sports and exploring new places.
+- 🌱 I’m currently deepening my knowledge in machine learning and AI.  
+- 💬 Ask me about Machine Learning and Deep Learning.  
+- 📫 How to reach me: [nikhil550000@example.com](mailto:nikhil550000@example.com)  
+- 😄 Pronouns: He/Him  
+- ⚡ Fun fact: I love reading sports articles and exploring new places.  
 
-## Tech Stack
+## Tech Stack  
 
-Here are a few technologies I've been working with recently:
+Here are a few technologies I've been working with recently:  
 
-- **Languages:**  Python, Java, C++,GIT
-- **Web Development:**  HTML, CSS
-- **Databases:** MySQL
-- **AI:**  Machine Learning, Deep Learning
-- **Frameworks:** FLOWER , BOOTSTRAP
-- **Data Science:** Data Analysis
-## GitHub Stats
+- **Languages:** Python, Java, C++, Git  
+- **Web Development:** HTML, CSS  
+- **Databases:** MySQL  
+- **AI & ML:** Machine Learning, Deep Learning  
+- **Frameworks & Tools:** Flower, Bootstrap  
+- **Data Science:** Data Analysis  
 
-![Nikhil's GitHub stats](https://github-readme-stats.vercel.app/api?username=nikhil550000&show_icons=true&theme=radical)
+## GitHub Stats  
 
-## Projects
+![Nikhil's GitHub stats](https://github-readme-stats.vercel.app/api?username=nikhil550000&show_icons=true&theme=radical)  
 
-Here are some of my recent projects:
+## Projects  
 
-1. **[Seniment Analysis using LSTM](https://github.com/nikhil550000/Sentiment-Analysis-using-LSTM)**
-   - Description: Built a Sentiment Analysis model using LSTM by using  netflix movie rating dataset.
-   - Technologies: PYTORCH, PYTHON , PANDAS , NUMPY.
+### 1. [Sentiment Analysis using LSTM](https://github.com/nikhil550000/Sentiment-Analysis-using-LSTM)  
+- **Description:** Built a sentiment analysis model using LSTM with the Netflix movie rating dataset.  
+- **Technologies:** PyTorch, Python, Pandas, NumPy  
 
-2. **[financial Agent using PHI-DATA](https://github.com/nikhil550000/financial_agent-using-phidata)**
-   - Description: Built a financial agent which can compare different stocks by doing a web search and can suggest customers which one would be better to buy with explanation and results.
-   - Technologies: Programming Language: Python , AI Models: Groq (LLaMA3) , APIs and Tools: YFinance , DuckDuckGo , OpenAI
- , Phi Playground
+### 2. [Financial Agent using PHI-DATA](https://github.com/nikhil550000/financial_agent-using-phidata)  
+- **Description:** Developed a financial agent that compares different stocks via web searches and suggests the best options for customers with explanations and results.  
+- **Technologies:**  
+  - **Programming Language:** Python  
+  - **AI Models:** Groq (LLaMA3)  
+  - **APIs & Tools:** YFinance, DuckDuckGo, OpenAI, Phi Playground  
 
-## Connect with Me
+## Connect with Me  
 
-- [LinkedIn](www.linkedin.com/in/nikhil-sai-g)
-- [Twitter](https://twitter.com/NIKHILSAI196675)
+- [LinkedIn](https://www.linkedin.com/in/nikhil-sai-g)  
+- [Twitter](https://twitter.com/NIKHILSAI196675)  
 
-Thanks for stopping by! Have a great day! 😊
+Thanks for stopping by! Have a great day! 😊  
