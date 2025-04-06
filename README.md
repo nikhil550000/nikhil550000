@@ -6,7 +6,7 @@ I'm a passionate **undergraduate** with a keen interest in AI-driven solutions a
 
 - 🌱 I’m currently deepening my knowledge in machine learning and AI.  
 - 💬 Ask me about Machine Learning and Deep Learning.  
-- 📫 How to reach me: [nikhil550000@example.com](mailto:nikhil550000@example.com)  
+- 📫 How to reach me: [gnikhilsai7gmail.com](mailto:gnikhilsai7@gmail.com)  
 - 😄 Pronouns: He/Him  
 - ⚡ Fun fact: I love reading sports articles and exploring new places.  
 
