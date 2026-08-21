@@ -23,92 +23,92 @@ I'm a final-year Artificial Intelligence and Data Science student with an intere
 - Outside tech, I enjoy reading sports articles and exploring new places
 - **Currently looking for internships, graduate roles, research work, and collaborations in AI/ML or data science**
 
-## Selected work
+## Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nikhil550000/GNN">Epidemic Intervention with GNN + RL</a></h3>
-<p>A GCN-PPO system that learns whom to quarantine or vaccinate on temporal contact networks.</p>
-<ul>
-<li>Reduced infections by <strong>47–52%</strong> on two SocioPatterns datasets</li>
-<li>Beat a DQN baseline by <strong>21%</strong></li>
-<li>Used behavioral cloning followed by PPO fine-tuning</li>
-<li>Validated with statistical tests and ablation studies</li>
-</ul>
-<code>PyTorch</code> <code>Gymnasium</code> <code>NetworkX</code> <code>SciPy</code>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nikhil550000/network">Phishing Detection MLOps Pipeline</a></h3>
-<p>An end-to-end XGBoost pipeline for classifying phishing URLs, with automated training and deployment.</p>
-<ul>
-<li>Reached <strong>98.78% F1</strong> on more than 11,000 samples</li>
-<li>Includes drift detection and model acceptance checks</li>
-<li>Tracks experiments with MLflow and schedules jobs with Airflow</li>
-<li>Serves predictions with FastAPI on AWS EC2</li>
-</ul>
-<code>XGBoost</code> <code>FastAPI</code> <code>MLflow</code> <code>Airflow</code> <code>AWS</code> <code>Docker</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nikhil550000/Sentiment-Analysis-using-LSTM">Sentiment Analysis with LSTM</a></h3>
-<p>An LSTM-based sentiment classifier built with the Netflix movie rating dataset.</p>
-<code>Python</code> <code>PyTorch</code> <code>Pandas</code> <code>NumPy</code>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/nikhil550000/financial_agent-using-phidata">Financial Research Agent</a></h3>
-<p>An agent that gathers market information, compares stocks, and explains its findings.</p>
-<code>Python</code> <code>LLaMA 3</code> <code>YFinance</code> <code>DuckDuckGo</code> <code>PhiData</code>
-</td>
-</tr>
-</table>
+### Machine learning research
 
-## Tools I use
+- Designed graph-based reinforcement learning experiments for decision-making on temporal networks.
+- Worked with GCN and PPO architectures, custom Gymnasium environments, behavioral cloning, reward design, and policy evaluation.
+- Compared models through baselines, ablation studies, Mann–Whitney U tests, and effect-size analysis rather than relying on a single headline metric.
 
-**Languages**
+### ML engineering and MLOps
+
+- Built modular workflows for data ingestion, validation, transformation, model training, evaluation, and model delivery.
+- Added dataset-drift checks, experiment tracking, model acceptance gates, scheduled retraining, and batch inference.
+- Packaged inference services with FastAPI and Docker, then set up CI/CD and cloud deployment on AWS.
+
+### Deep learning and applied AI
+
+- Trained deep learning models for NLP tasks, including LSTM-based sentiment classification with PyTorch.
+- Built LLM-powered applications that combine external tools, web research, structured output, and financial data.
+- Explored retrieval-augmented generation, agent workflows, and practical ways to evaluate AI-assisted systems.
+
+## Tech stack
+
+### Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-**Machine learning and data**
+### Machine learning and AI
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square&logoColor=white)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-0081A5?style=flat-square&logo=openaigym&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-2C5BB4?style=flat-square&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-6C63FF?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-8A2BE2?style=flat-square&logoColor=white)
+
+### Data and experimentation
+
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
-**Engineering and cloud**
+### APIs, MLOps, and orchestration
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+### Cloud and databases
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### Development tools
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![Flower](https://img.shields.io/badge/Flower-Federated_Learning-5B2C6F?style=flat-square&logoColor=white)
 
 ## GitHub at a glance
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nikhil550000&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" alt="Nikhil's GitHub statistics" />
-<img width="49%" src="https://streak-stats.demolab.com?user=nikhil550000&theme=tokyonight&hide_border=true" alt="Nikhil's GitHub contribution streak" />
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nikhil550000&theme=github_dark" alt="Nikhil's GitHub contribution history" />
 
-<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhil550000&layout=compact&langs_count=10&hide_border=true&theme=tokyonight" alt="Languages used across Nikhil's public repositories" />
-<img width="57%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nikhil550000&theme=tokyonight" alt="Nikhil's GitHub contribution summary" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nikhil550000&theme=github_dark" alt="Nikhil's GitHub statistics" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nikhil550000&theme=github_dark&utcOffset=0" alt="Nikhil's commits by time of day" />
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=nikhil550000&theme=tokyo-night&hide_border=true&area=true" alt="Nikhil's GitHub contribution graph" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=nikhil550000&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Nikhil's GitHub achievements" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nikhil550000&theme=github_dark" alt="Nikhil's repositories by language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nikhil550000&theme=github_dark" alt="Nikhil's commits by language" />
 
 </div>
 
-<sub>These cards are generated from public GitHub activity. The language card shows repository composition, not proficiency.</sub>
+<sub>These cards are generated from public GitHub activity. Language statistics describe repository activity, not proficiency.</sub>
 
 ## Let's talk
 
