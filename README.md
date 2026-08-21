@@ -1,56 +1,117 @@
-# Hi, I'm Nikhil 👋
+<div align="center">
 
-## About Me
+# Nikhil Sai
 
-I'm a final-year undergraduate in **Artificial Intelligence and Data Science**, focused on building ML systems that go from research-grade modeling to production deployment. My work spans reinforcement learning on graph-structured data, MLOps pipelines, and applied deep learning — with an emphasis on rigorous evaluation, not just working code.
+### AI & Data Science Undergraduate · Machine Learning Engineer
 
-- 🔬 Currently exploring reinforcement learning, graph neural networks, and LLM-based systems
-- 🛠️ Building end-to-end ML pipelines — from data ingestion to deployment
-- 📫 Reach me at: gnikhilsai7@gmail.com
-- 🤝 Open to research collaborations, ML internships, and interesting technical discussions
+I build machine learning systems, run careful experiments, and turn ideas into software that can be used outside a notebook.
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-sai-g)
+[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gnikhilsai7@gmail.com)
+[![GitHub followers](https://img.shields.io/github/followers/nikhil550000?style=for-the-badge&logo=github&label=Follow)](https://github.com/nikhil550000?tab=followers)
+![Profile views](https://komarev.com/ghpvc/?username=nikhil550000&style=for-the-badge&color=6C63FF)
 
-## 🚀 Featured Projects
+</div>
 
-### [Targeted Epidemic Intervention via GNN-Driven Reinforcement Learning](https://github.com/nikhil550000/GNN)
-A node-scoring **GCN-PPO framework** for budget-constrained epidemic mitigation on temporal contact networks, modeling quarantine and vaccination as separate learned policy heads within a custom 8-state SEIQVR Gymnasium environment.
+## A little about me
 
-- Achieved **47–52% infection reduction** vs. uncontrolled spread across two real-world SocioPatterns datasets (hospital N=75, school N=242)
-- Validated results with **Mann-Whitney U tests** (p < 10⁻⁵) and **Cohen's d > 0.8**
-- Outperformed DQN baseline by **21%** and single-intervention ablations by **37–41%**
-- Two-phase training: **behavioral cloning warm-start + PPO fine-tuning**, validated across four ablation studies
+I'm a final-year Artificial Intelligence and Data Science student with an interest in applied machine learning and the engineering needed to support it. I like working across the full project lifecycle: preparing data, training models, evaluating them properly, building APIs, and setting up deployment workflows.
 
-**Stack:** Python, PyTorch, Gymnasium, NetworkX, NumPy, SciPy
+- Working on **reinforcement learning, graph neural networks, and production ML**
+- Interested in **deep learning, LLM applications, RAG, MLOps, and applied statistics**
+- Comfortable taking a project from an initial experiment to a deployable service
+- Outside tech, I enjoy reading sports articles and exploring new places
+- **Currently looking for internships, graduate roles, research work, and collaborations in AI/ML or data science**
 
----
+## Selected work
 
-### [Network Security — Phishing Website Detection](https://github.com/nikhil550000/network)
-An end-to-end **MLOps pipeline** for phishing URL classification using XGBoost, achieving **98.78% F1**, **98.56% precision**, and **98.99% recall** on 11K+ samples with 30 network-level features.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nikhil550000/GNN">Epidemic Intervention with GNN + RL</a></h3>
+<p>A GCN-PPO system that learns whom to quarantine or vaccinate on temporal contact networks.</p>
+<ul>
+<li>Reduced infections by <strong>47–52%</strong> on two SocioPatterns datasets</li>
+<li>Beat a DQN baseline by <strong>21%</strong></li>
+<li>Used behavioral cloning followed by PPO fine-tuning</li>
+<li>Validated with statistical tests and ablation studies</li>
+</ul>
+<code>PyTorch</code> <code>Gymnasium</code> <code>NetworkX</code> <code>SciPy</code>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nikhil550000/network">Phishing Detection MLOps Pipeline</a></h3>
+<p>An end-to-end XGBoost pipeline for classifying phishing URLs, with automated training and deployment.</p>
+<ul>
+<li>Reached <strong>98.78% F1</strong> on more than 11,000 samples</li>
+<li>Includes drift detection and model acceptance checks</li>
+<li>Tracks experiments with MLflow and schedules jobs with Airflow</li>
+<li>Serves predictions with FastAPI on AWS EC2</li>
+</ul>
+<code>XGBoost</code> <code>FastAPI</code> <code>MLflow</code> <code>Airflow</code> <code>AWS</code> <code>Docker</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nikhil550000/Sentiment-Analysis-using-LSTM">Sentiment Analysis with LSTM</a></h3>
+<p>An LSTM-based sentiment classifier built with the Netflix movie rating dataset.</p>
+<code>Python</code> <code>PyTorch</code> <code>Pandas</code> <code>NumPy</code>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/nikhil550000/financial_agent-using-phidata">Financial Research Agent</a></h3>
+<p>An agent that gathers market information, compares stocks, and explains its findings.</p>
+<code>Python</code> <code>LLaMA 3</code> <code>YFinance</code> <code>DuckDuckGo</code> <code>PhiData</code>
+</td>
+</tr>
+</table>
 
-- 6-stage modular pipeline (Ingestion → Validation → Transformation → Training → Evaluation → Pusher) with KS-test drift detection and automated model acceptance gating
-- Experiment tracking via **MLflow** across 11+ training runs
-- Weekly retraining and batch inference orchestrated via **Apache Airflow**, with **AWS S3** artifact sync
-- **FastAPI** service for training/inference, containerized with **Docker**, deployed to **AWS EC2** via GitHub Actions CI/CD
+## Tools I use
 
-**Stack:** Python, XGBoost, FastAPI, MLflow, Airflow, Docker, AWS (S3, ECR, EC2), MongoDB Atlas
+**Languages**
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-## 🧠 Areas of Interest
+**Machine learning and data**
 
-`Reinforcement Learning` · `Graph Neural Networks` · `MLOps` · `Deep Learning` · `LLM Systems & RAG` · `Applied Statistics`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
----
+**Engineering and cloud**
 
-## 📊 GitHub Stats
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-![Nikhil's GitHub stats](https://github-readme-stats.vercel.app/api?username=nikhil550000&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nikhil550000&layout=compact&theme=radical)
+## GitHub at a glance
 
----
+<div align="center">
 
-## 🔗 Connect
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nikhil550000&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" alt="Nikhil's GitHub statistics" />
+<img width="49%" src="https://streak-stats.demolab.com?user=nikhil550000&theme=tokyonight&hide_border=true" alt="Nikhil's GitHub contribution streak" />
 
-- [LinkedIn](https://www.linkedin.com/in/nikhil-sai-g)
-- [Email](mailto:gnikhilsai7@gmail.com)
+<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhil550000&layout=compact&langs_count=10&hide_border=true&theme=tokyonight" alt="Languages used across Nikhil's public repositories" />
+<img width="57%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nikhil550000&theme=tokyonight" alt="Nikhil's GitHub contribution summary" />
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=nikhil550000&theme=tokyo-night&hide_border=true&area=true" alt="Nikhil's GitHub contribution graph" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=nikhil550000&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Nikhil's GitHub achievements" />
+
+</div>
+
+<sub>These cards are generated from public GitHub activity. The language card shows repository composition, not proficiency.</sub>
+
+## Let's talk
+
+I'm looking for a role where I can work on useful ML problems, learn from a strong engineering or research team, and take ownership of real projects. I'm also open to research and open-source collaborations.
+
+The easiest ways to reach me are [LinkedIn](https://www.linkedin.com/in/nikhil-sai-g) and [email](mailto:gnikhilsai7@gmail.com).
