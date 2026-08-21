@@ -1,117 +1,107 @@
 <div align="center">
 
-# Nikhil Sai
+# Nikhil Sai Goori
 
-### AI & Data Science Undergraduate · Machine Learning Engineer
+### Software Engineer · Backend Systems · Applied AI
 
-I build machine learning systems, run careful experiments, and turn ideas into software that can be used outside a notebook.
+I build reliable backend services and AI systems—from API contracts and data pipelines to retrieval, evaluation, and deployment.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-sai-g)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gnikhilsai7@gmail.com)
-[![GitHub followers](https://img.shields.io/github/followers/nikhil550000?style=for-the-badge&logo=github&label=Follow)](https://github.com/nikhil550000?tab=followers)
-![Profile views](https://komarev.com/ghpvc/?username=nikhil550000&style=for-the-badge&color=6C63FF)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nikhil550000?tab=followers)
 
 </div>
 
-## A little about me
+## About
 
-I'm a final-year Artificial Intelligence and Data Science student with an interest in applied machine learning and the engineering needed to support it. I like working across the full project lifecycle: preparing data, training models, evaluating them properly, building APIs, and setting up deployment workflows.
+I'm a final-year Artificial Intelligence and Data Science undergraduate who approaches AI projects as software engineering problems. My strongest work sits where backend systems meet applied AI: designing APIs, structuring data flows, validating inputs, separating components, testing critical paths, and shipping services that can be operated beyond a notebook.
 
-- Working on **reinforcement learning, graph neural networks, and production ML**
-- Interested in **deep learning, LLM applications, RAG, MLOps, and applied statistics**
-- Comfortable taking a project from an initial experiment to a deployable service
-- Outside tech, I enjoy reading sports articles and exploring new places
-- **Currently looking for internships, graduate roles, research work, and collaborations in AI/ML or data science**
+Most of my backend work is in Python and FastAPI, supported by SQL or MongoDB, containerized delivery, CI, and cloud infrastructure. On the AI side, I work with hybrid retrieval, reranking, citation validation, model training, and evaluation. I care about clean interfaces, reproducible results, and making system tradeoffs visible.
 
-## Experience
+<table>
+<tr>
+<td width="33%" valign="top">
+<h3>Backend systems</h3>
+<p>API design, validation, data access, service boundaries, and scheduled workflows.</p>
+</td>
+<td width="33%" valign="top">
+<h3>AI systems</h3>
+<p>Retrieval, reranking, grounded generation, model evaluation, and observability.</p>
+</td>
+<td width="33%" valign="top">
+<h3>Engineering practice</h3>
+<p>Modular design, automated tests, CI gates, containerization, and deployment.</p>
+</td>
+</tr>
+</table>
 
-### Machine learning research
+## Selected systems
 
-- Designed graph-based reinforcement learning experiments for decision-making on temporal networks.
-- Worked with GCN and PPO architectures, custom Gymnasium environments, behavioral cloning, reward design, and policy evaluation.
-- Compared models through baselines, ablation studies, Mann–Whitney U tests, and effect-size analysis rather than relying on a single headline metric.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### ML engineering and MLOps
+### [RAG Scholar](https://github.com/nikhil550000/Hybrid-Rag)
 
-- Built modular workflows for data ingestion, validation, transformation, model training, evaluation, and model delivery.
-- Added dataset-drift checks, experiment tracking, model acceptance gates, scheduled retraining, and batch inference.
-- Packaged inference services with FastAPI and Docker, then set up CI/CD and cloud deployment on AWS.
+A FastAPI-backed research assistant for querying ten machine-learning papers with hybrid retrieval and verified citations.
 
-### Deep learning and applied AI
+- Combines vector search and BM25, then applies cross-encoder reranking
+- Keeps citation validation separate from answer generation
+- Includes offline unit tests, observability, and an evaluation gate in CI
+- Reached **0.974 faithfulness** and **0.928 citation accuracy** on a 100-question offline evaluation
 
-- Trained deep learning models for NLP tasks, including LSTM-based sentiment classification with PyTorch.
-- Built LLM-powered applications that combine external tools, web research, structured output, and financial data.
-- Explored retrieval-augmented generation, agent workflows, and practical ways to evaluate AI-assisted systems.
+<sub>Python · FastAPI · ChromaDB · BM25 · Sentence Transformers · DeepEval · Langfuse</sub>
 
-## Tech stack
+</td>
+<td width="50%" valign="top">
 
-### Languages
+### [Network Security Pipeline](https://github.com/nikhil550000/Network_Security)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+An API-driven ML system for phishing classification, repeatable training, evaluation, batch inference, and deployment.
 
-### Machine learning and AI
+- Uses a group-aware split to keep duplicate feature vectors out of both train and test sets
+- Keeps preprocessing and inference behavior consistent through a packaged model pipeline
+- Adds schema validation, model acceptance checks, scheduled jobs, and offline tests
+- Reached **95.97% phishing-class F1** on a held-out group-aware test set
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square&logoColor=white)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-0081A5?style=flat-square&logo=openaigym&logoColor=white)
-![NetworkX](https://img.shields.io/badge/NetworkX-2C5BB4?style=flat-square&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLMs-6C63FF?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-8A2BE2?style=flat-square&logoColor=white)
+<sub>Python · FastAPI · XGBoost · Airflow · MLflow · Docker · GitHub Actions · AWS</sub>
 
-### Data and experimentation
+</td>
+</tr>
+</table>
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+## Core stack
 
-### APIs, MLOps, and orchestration
+| Area | Primary tools |
+| --- | --- |
+| **Backend** | Python · FastAPI · Pydantic · REST APIs · SQL |
+| **Data and retrieval** | MongoDB · MySQL · ChromaDB · BM25 · vector search |
+| **AI and machine learning** | PyTorch · scikit-learn · XGBoost · RAG · LLM evaluation |
+| **Systems and delivery** | Docker · GitHub Actions · AWS · Airflow · MLflow |
+| **Quality and collaboration** | pytest · Ruff · Git · schema validation · evaluation gates |
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+## How I approach engineering
 
-### Cloud and databases
+- Define clear contracts between the API, pipeline, storage, and model layers.
+- Keep core behavior testable without requiring live models or cloud credentials.
+- Treat evaluation as part of development, with metrics tied to a dataset and test context.
+- Document limitations and operational tradeoffs instead of presenting a demo as a finished product.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-### Development tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![Flower](https://img.shields.io/badge/Flower-Federated_Learning-5B2C6F?style=flat-square&logoColor=white)
-
-## GitHub at a glance
+## GitHub activity
 
 <div align="center">
 
 <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nikhil550000&theme=github_dark" alt="Nikhil's GitHub contribution history" />
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nikhil550000&theme=github_dark" alt="Nikhil's GitHub statistics" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nikhil550000&theme=github_dark&utcOffset=0" alt="Nikhil's commits by time of day" />
-
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nikhil550000&theme=github_dark" alt="Nikhil's repositories by language" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nikhil550000&theme=github_dark" alt="Nikhil's commits by language" />
 
 </div>
 
-<sub>These cards are generated from public GitHub activity. Language statistics describe repository activity, not proficiency.</sub>
+<sub>Activity cards are generated from public GitHub data. Repository-language statistics show code distribution, not proficiency.</sub>
 
-## Let's talk
+## Currently
 
-I'm looking for a role where I can work on useful ML problems, learn from a strong engineering or research team, and take ownership of real projects. I'm also open to research and open-source collaborations.
+I'm open to internships and upcoming entry-level roles in **backend engineering, software engineering, and AI/ML infrastructure**. I'm especially interested in teams building API platforms, data-intensive services, ML tooling, or AI products that need strong engineering underneath.
 
-The easiest ways to reach me are [LinkedIn](https://www.linkedin.com/in/nikhil-sai-g) and [email](mailto:gnikhilsai7@gmail.com).
+Reach me on [LinkedIn](https://www.linkedin.com/in/nikhil-sai-g) or by [email](mailto:gnikhilsai7@gmail.com).
